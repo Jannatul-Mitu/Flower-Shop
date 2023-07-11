@@ -17,42 +17,132 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 0px;
+    background-color: #F4F4F4;
 }
 
 .logo{
-    width: 100%;
+    width: 33.33%;
 }
 
 .logo img{
     width: 50px;
     height: 50px;
+    margin-top: 10px;
+    margin-left: 120px;
+}
+
+.logo p{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.7em;
+    color: #4D4D4D;
+    margin-left: 103px;
+    letter-spacing: 5px;
 }
 
 .shop-name{
-
+    width: 33.33%;
+    text-align: center;
 }
 
 .shop-name h1{
-
+    text-align: center;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: #4D4D4D;
 }
 
-.shop-name h1 small{
-
+.shop-name h1 span{
+    color: #E55473;
 }
 
 .signin{
+    width: 33.33%;
     display: flex;
     align-items: center;
 }
 
 .login{
-
+    margin-left: 80px;
+    margin-right: 20px;
 }
 
-.account{
+.login a{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7em;
+    text-decoration: none;
+    color: #4D4D4D;
+    padding: 0px 25px;
+    border-right: 1px solid #4D4D4D;
+}
 
+.account a{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7em;
+    text-decoration: none;
+    color: #4D4D4D;
 }
 /* top section end */
+
+/* bottom section start */
+.bottom{
+    width: 100%;
+    background-color: #4D4D4D;
+}
+
+.nav{
+    width: 100%;
+    padding: 10px 0px;
+    margin: 0px 20px;
+}
+
+.nav > ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 180px 0px 140px;
+}
+
+.nav li{
+    list-style: none;
+}
+
+.nav li:hover{
+    color: #4D4D4D;
+    background-color: #FFF;
+}
+
+.nav li a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.nav li a:hover{
+    color: #4D4D4D;
+}
+
+.nested{
+    position: absolute;
+    display: none;
+    background-color: #4D4D4D;
+    width: 200px;
+}
+
+.inner-n{
+    color: gray;
+    border-bottom: 1px solid #4D4D4D;
+    margin-left: 20px;
+}
+
+.nav ul li:hover .nested{
+    display: block;
+}
+/* bottom section end */
 
 /* header end */
 
@@ -63,7 +153,6 @@ header{
 .b1{
     width: 100%;
     padding: 20px 0px 0px;
-    margin-top: 20px;
     background: rgba(229, 84, 115, 0.10);
 }
 .inner-b1{
