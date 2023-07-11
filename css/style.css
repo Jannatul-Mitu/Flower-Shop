@@ -17,7 +17,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0px;
+    padding: 8px 0px;
     background-color: #F4F4F4;
 }
 
@@ -66,7 +66,7 @@ header{
 
 .login{
     margin-left: 80px;
-    margin-right: 20px;
+    transition: 1s;
 }
 
 .login a{
@@ -75,8 +75,16 @@ header{
     line-height: 1.7em;
     text-decoration: none;
     color: #4D4D4D;
-    padding: 0px 25px;
+    padding: 10px 25px;
+    margin-right: 10px;
     border-right: 1px solid #4D4D4D;
+    transition: 1s;
+}
+
+.login a:hover{
+    color: #FFF;
+    background-color: #E55473;
+    border: none;
 }
 
 .account a{
@@ -85,6 +93,14 @@ header{
     line-height: 1.7em;
     text-decoration: none;
     color: #4D4D4D;
+    padding: 10px 10px;
+    margin-right: 40px;
+    transition: 1s;
+}
+
+.account a:hover{
+    color: #FFF;
+    background-color: #E55473;
 }
 /* top section end */
 
@@ -96,7 +112,7 @@ header{
 
 .nav{
     width: 100%;
-    padding: 10px 0px;
+    padding: 0px 0px;
     margin: 0px 20px;
 }
 
@@ -108,7 +124,9 @@ header{
 }
 
 .nav li{
+    padding: 10px 0px;
     list-style: none;
+    transition: 1s;
 }
 
 .nav li:hover{
@@ -135,7 +153,6 @@ header{
 
 .inner-n{
     color: gray;
-    border-bottom: 1px solid #4D4D4D;
     margin-left: 20px;
 }
 
@@ -328,6 +345,13 @@ header{
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
     margin: auto;
+    box-shadow: 5px 5px 10px gray;
+    transition: 1s;
+}
+
+.container:hover{
+    width: 1150px;
+    height: 330px;
 }
 
 .inner-b2{
