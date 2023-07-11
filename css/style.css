@@ -7,19 +7,57 @@ body{
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+/* header start */
 header{
-    
+   width: 100%; 
 }
 
-.left{
+/* top section start */
+.top{
     display: flex;
-    z-index: 2;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo{
+    width: 100%;
+}
+
+.logo img{
     width: 50px;
     height: 50px;
 }
+
+.shop-name{
+
+}
+
+.shop-name h1{
+
+}
+
+.shop-name h1 small{
+
+}
+
+.signin{
+    display: flex;
+    align-items: center;
+}
+
+.login{
+
+}
+
+.account{
+
+}
+/* top section end */
+
+/* header end */
+
+
+/* main section start */
 
 /* banner-1 start */
 .b1{
@@ -304,3 +342,138 @@ header{
     width: 70%;
 }
 /* banner-3 end */
+
+/* feature start */
+.insta{
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.inner-insta{
+    width: 100%;
+    text-align: center;
+}
+
+.inner-insta h3{
+    color: #272727;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 1.2em;
+    margin-bottom: 20px;
+}
+
+.inner-insta p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7em;
+    margin-bottom: 40px;
+}
+
+.inner-image{
+    display: flex;
+    align-items: center;
+    margin: 20px 130px;
+}
+
+.i-1, .i-2, .i-3, .i-4{
+    width: 260px;
+    height: 330px;
+    margin: auto;
+}
+
+
+/* instagram end */
+
+/* subscribe start */
+.sub{
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.inner-sub{
+    width: 1080px;
+    height: 255px;
+    text-align: center;
+    border-radius: 8px;
+    background: url("../images/Rectangle\ 9.png"), lightgray 0px -203.444px / 100% 213.755% no-repeat;
+    background-size: 100%;
+    padding: 80px 0px 0px;
+    margin: auto;
+}
+
+.inner-sub h3{
+    color: #272727;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 1.2em;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.inner-sub h6{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2em;
+    margin-bottom: 20px;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+}
+
+.button p{
+    padding: 15px 300px 15px 20px;
+    background-color: #FFF;
+    border-radius: 8px;
+    margin: 0px 10px 0px 200px;
+}
+/* subscribe end */
+
+/* main section end */
+
+
+/* footer start */
+.footer{
+    width: 100%;
+}
+
+.inner-footer{
+    width: 100%;
+    padding: 100px 0px;
+    margin-top: 20px;
+    background: #111010;
+    text-align: center;
+}
+
+.inner-footer h3{
+    color: #E55473;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 1.2em;
+    margin-bottom: 20px;
+}
+
+.inner-footer h3 span{
+    color: #FFFFFF;
+}
+
+.inner-footer p{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7em;
+    margin-bottom: 20px;
+}
+
+.inner-footer p small{
+    color: #FFFFFF66;
+}
+/* footer end */
