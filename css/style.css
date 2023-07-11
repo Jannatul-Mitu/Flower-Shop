@@ -193,8 +193,14 @@ header{
     border-radius: 5px;
     background: #E55473;
     border: none;
+    transition: 1s;
 }
 
+.btn-primary:hover{
+    color: #E55473;
+    background-color: #FFF;
+    border: 1px solid #E55473;
+}
 .b1-image{
     width: 40%;
     margin-top: 40px;
@@ -471,6 +477,27 @@ header{
     width: 260px;
     height: 330px;
     margin: auto;
+    transition: 1s;
+}
+
+.i-1:hover{
+    width: 300px;
+    height: 370px;
+}
+
+.i-2:hover{
+    width: 300px;
+    height: 370px;
+}
+
+.i-3:hover{
+    width: 300px;
+    height: 370px;
+}
+
+.i-4:hover{
+    width: 300px;
+    height: 370px;
 }
 
 
@@ -547,10 +574,21 @@ header{
     font-weight: 800;
     line-height: 1.2em;
     margin-bottom: 20px;
+    transition: 1s;
+}
+
+.inner-footer h3:hover{
+    letter-spacing: 5px;
 }
 
 .inner-footer h3 span{
     color: #FFFFFF;
+}
+
+.inner-footer h3 span:hover{
+    margin-left: 5px;
+    padding: 0px 0px 0px 8px;
+    border-left: 1px solid #4D4D4D;
 }
 
 .inner-footer p{
